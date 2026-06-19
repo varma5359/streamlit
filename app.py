@@ -34,5 +34,5 @@ if st.button("Predict Price"):
     )[0]
 
     st.success(
-        f"Estimated Price: ₹ {prediction:,.0f}"
+        f"House final: ₹ {prediction:,.0f}"
     )
